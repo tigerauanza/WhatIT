@@ -5,13 +5,12 @@ const app = express() //run function express
 
 app.set('view engine', 'twig')
 
-const homeController = require('./controllers/home.controller')
-const newsController = require('./controllers/news.controller')
+const homeController = require('./controllers/news.controller')
 
 app.get('/', homeController.index)
-app.get('/news', newsController.index)
 
-app.use('/assets', express.static(__dirname + '/static/assets', {
+
+app.use('/Ps', express.static(__dirname + '/static/Ps', {
 	maxAge: 86400000
 }))
 
