@@ -9,8 +9,8 @@ header .navbar-tabs {
 .new .new-item {
 	font-size: 100px;
 }
-.new .new-item {
-	font-color: #FF0000;
+.new .new-item h1{
+	font-color: #184169;
 }
 
 p {
