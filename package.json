@@ -1,0 +1,13 @@
+{
+  "name": "WhatIT",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.1",
+    "twig": "^1.10.5"
+  },
+  "scripts": {
+  	"dev": "nodemon -e js,twig server.js"
+  }
+}
