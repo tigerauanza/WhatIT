@@ -5,14 +5,13 @@ const app = express() //run function express
 
 app.set('view engine', 'twig')
 
-const homeController = require('./controllers/home.controller')
+
 const newsController = require('./controllers/news.controller')
-const knowledgeController = require('./controllers/knowledge.controller')
-const webboardController = require('./controllers/webboard.controller')
 const aboutusController = require('./controllers/aboutus.controller')
 
-app.get('/', homeController.index)
-app.get('/', newsController.index)
+
+app.get('/news', newsController.index)
+app.get('/aboutus', aboutusController.index)
 
 
 
