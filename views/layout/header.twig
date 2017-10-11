@@ -1,24 +1,15 @@
 <header>
-	<div class="has-text-centered is-size-1">
-		WHAT IT
-	</div>
-<div class="thumbnail">
-				<div class="columns is-marginless">
-				{% for item in thumbnail %}
-					<a href="#" class="column thumbnail-item" style="background-image:
-					url({{ item.url }});">
-					{{ item.title }}
-					</a>
-					{% endfor %}
-				</div>
-			</div>
-	<nav class="navbar-tabs is-size-5">
-		<a href="#" class="navbar-item">NEWS</a>
-		<a href="#" class="navbar-item">KNOWLEDGE</a>
-		<a href="#" class="navbar-item">WEBBOARD</a>
-		<a href="#" class="navbar-item">ABOUT US</a>
-		<a href="#" class="navbar-item">SIGN IN</a>
-
+	<section class="hero is-dark is-small">
+  <div class="hero-head">
+    <nav class="navbar">
+      <div class="container">
+        <div class="navbar-brand">
+          <span class="navbar-burger burger" data-target="navbarMenuHeroB">
+            <span></span>
+            <span></span>
+            <span></span>
+          </span>
+        </div>
         <div class="field is-grouped">
   <p class="control is-expanded">
     <input class="input" type="text" placeholder="">
@@ -28,6 +19,46 @@
       Search
     </a>
   </p>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </div>
+
+  <div class="hero-body">
+    <div class="container has-text-left">
+      <p class="title">
+        WHAT IT
+      </p>
+
+    </div>
+  </div>
+
+  <div class="hero-foot">
+    <nav class="tabs is-boxed is-fullwidth">
+      <div class="container">
+        <ul>
+          <li>
+            <a>NEWS</a>
+          </li>
+          <li>
+            <a>KNOWLEDGE</a>
+          </li>
+          <li>
+            <a>WEBBOARD</a>
+          </li>
+          <li>
+            <a>ABOUT US</a>
+          </li>
+          <li>
+            <a>SIGN IN</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+</section>
+  		
   
 </div>
  	</header>
