@@ -2,14 +2,16 @@
 	margin-bottom: 0 !important;
 }
 
-.highlight .highlight-item{
-  height: 416px;
- 
-  color:#6495ED;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
+.highlight .highlight-item {
+	height: 540px;
+	width: 480px;
+	background: url(/assets/images/home/Whatit/iphonex1.2.jpg) no-repeat center/cover;
+	color: #ffffff;
+	display: flex;
+	justify-content: center;
+	align-items:  center;
+	border-top:  1rem solid #ffffff;
+  }
 
 .highlight .highlight-item h1 {
 	font-size: 100px;
