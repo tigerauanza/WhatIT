@@ -1,10 +1,12 @@
 exports.index = function (req, res) {
 
 	let content = {
-		
-	}
+		highlight: {
+			url: '/assets/images/home/banner/highlight.jpg',
+			title: 'Yon'
+		},
 
-	res.render('news.twig', content)
+	res.render('aboutus.twig', content)
 }
 
 //let content = {
