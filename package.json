@@ -4,10 +4,10 @@
   "main": "index.js",
   "license": "MIT",
   "dependencies": {
-    "express": "^4.16.1",
+    "express": "^4.16.2",
     "twig": "^1.10.5"
   },
   "scripts": {
-  	"dev": "nodemon -e js,twig server.js"
+    "dev": "nodemon -e js,twig server.js"
   }
 }

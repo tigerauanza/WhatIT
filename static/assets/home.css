@@ -1,41 +1,60 @@
+header .navbar-tabs {
+	  background-color: black;
+  height: 120px;
+  margin-left: 20;
+}
+
 .highlight {
-	margin-bottom: 0 !important;
+  margin-bottom: 0 !important; /*important ให้น้ำหนัก hightlight ว่าสำคัญกว่า เพื่อให้ไม่มีขอบว่างข้างล่างรูป*/
 }
 
 .highlight .highlight-item {
-	height: 540px;
-	width: 480px;
-	background: url(/assets/images/home/Whatit/iphonex1.2.jpg) no-repeat center/cover;
-	color: #ffffff;
-	display: flex;
-	justify-content: center;
-	align-items:  center;
-	border-top:  1rem solid #ffffff;
-  }
+  height: 540px;
+  width: 480px;
+  background: url(/assets/images/home/Whatit/iphonex1.2.jpg) no-repeat center/cover;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items:  center;
+  border-top:  1rem solid #ffffff;
+}
 
 .highlight .highlight-item h1 {
-	font-size: 100px;
+  font-size: 100px;
 }
 
 .thumbnail {
-	border-top: 0.1rem solid #6495ED;
+  border-top: 0.5rem solid #ffffff; /*solid คือขอบทึบ มีแบบจุดแล้วก็เส้นด้วย*/
 }
 
-.thumbnail .thumbnail-item + .thumbnail-item{
-	border-left: .1rem solid #6495ED;
+.thumbnail .thumbnail-item + .thumbnail-item {
+  border-left: .1rem solid #ffffff; 
 }
 
 .thumbnail .thumbnail-item {
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: cover;
-	color: #6495ED;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	height: 10rem;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10rem;
 }
 
+.content figure:not(:last-child) {
+    margin-bottom: 0em;
+}
 
+.footer {
+    background-color: #f5f5f5;
+    padding: 1rem 1rem 1rem;
+}
 
-
+.navbar-item, .navbar-link {
+    color: #ffffff;
+    display: block;
+    line-height: 7;
+    padding: .5rem 1rem;
+    position: relative;
+}
